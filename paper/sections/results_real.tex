@@ -1,0 +1,21 @@
+\subsection{A census of Pythia-70M}
+\label{sec:real}
+
+We now count features where the answer is unknown: the residual stream after block \RealLayer{} of Pythia-70M, with \RealSeeds{} seeds at each of four dictionary sizes (Table~\ref{tab:real}, Figure~\ref{fig:hero}b).
+
+\begin{table}[t]
+\centering\small
+\caption{\textbf{Census of Pythia-70M} (layer \RealLayer, \RealSeeds{} seeds per size, $\tau=\MainTau$). FVU is the fraction of variance unexplained on held-out tokens (mean over seeds). ``Distinct, all seeds'' is the union over seeds. ``Seen $\ge2$'' counts features reproduced by at least two seeds. The interval is a 95\% bootstrap interval for the singleton-free estimate.}
+\label{tab:real}
+\input{tab_real.tex}
+\end{table}
+
+\paragraph{Seeds disagree much more than on planted features.} At $m=8192$, \RealSingleFrac{} of the distinct features found across seeds were found by one seed only, and just \RealAllSeedsEight{} by all eight. The union over seeds grows \RealUnionGrowth-fold from $m=1024$ to $m=8192$, slightly faster than the dictionary itself, and Chao's bound reaches the millions. Both are the junk-driven signatures of the synthetic over-complete regime.
+
+\paragraph{The singleton-free census.} The estimated number of reproducible features grows from \RealSfOne{} (95\% CI \RealSfLoOne--\RealSfHiOne) at $m=1024$ to \RealSfEight{} (\RealSfLoEight--\RealSfHiEight) at $m=8192$. Each doubling of the dictionary multiplies the estimate by \RealGrowthOne, \RealGrowthTwo{} and \RealGrowthFour{}. Growth is slowing, but by the logic of \S\ref{sec:sf} it has not stopped, so these dictionaries have not yet reached the plateau and \RealSfEight{} is a lower bound for this layer under our training budget. At $m=8192$ only about \RealReproFrac{} of a single SAE's alive latents correspond to reproducible features, a regime we did not see with planted features.
+
+\paragraph{Held-out seeds confirm the forecasts.} Fitted on 4 seeds, the singleton-free model predicts how many features all 8 seeds reproduce to within \HeldRealSfMax{} at every dictionary size (median \HeldRealSfMed; Figure~\ref{fig:heldout}). In the median, assuming no new features would appear misses by \HeldRealNoGrowthMed, and assuming equal catchability by \HeldRealMZeroMed. This test needs no ground truth, so it is the strongest evidence that the census describes real structure in the seeds' agreement.
+
+\paragraph{What the census is sensitive to.} The matching threshold matters more for real features than for planted ones (Appendix Table~\ref{tab:real_tau}). At $m=8192$ the estimate is \RealSfEightTauLo{} at $\tau=\TauLo$ and \RealSfEightTauHi{} at $\tau=\TauHi$. The growth with dictionary size holds for $\tau\le\MainTau$, but at $\tau=\TauHi$ the estimate falls between $m=4096$ and $m=8192$. Real features are reproduced less exactly than planted directions, so deciding when two latents are ``the same feature'' is a modelling choice that the count inherits. The number of seeds matters less: at $m=8192$, fitting 4, 6 and 8 seeds gives \RealSfEightKFour, \RealSfEightKSix{} and \RealSfEight.
+
+\input{sections/results_long.tex}

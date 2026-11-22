@@ -1,0 +1,63 @@
+\section{Results}
+\label{sec:results}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../figures/fig1_hero.pdf}
+\caption{\textbf{Counting features with a fish-counting method.} (a) Synthetic activations with a known number $N$ of planted features (\SynFamilies{} settings; lines are medians, bands the range across settings). As the dictionary grows, the number of alive latents (gray) and the number of distinct features found across \SynSeeds{} seeds (orange) keep rising, and Chao's estimator (yellow) explodes. The singleton-free capture--recapture estimate (blue) rises until the dictionary is large enough and then levels off at the planted count (dashed). (b) The same quantities for Pythia-70M, where the true count is unknown. The blue band is the 95\% bootstrap interval.}
+\label{fig:hero}
+\end{figure}
+
+\subsection{Naive counts overstate the number of features}
+Table~\ref{tab:synth} and Figure~\ref{fig:hero}a compare every count and estimator with the planted number $N$. Once the dictionary has at least as many latents as there are planted features, every naive count is too high, and the error grows with the dictionary.
+\begin{itemize}\setlength\itemsep{1pt}
+\item \emph{Alive latents in one SAE:} \AliveRatioTwo$N$ at $m=2N$.
+\item \emph{Distinct features across all seeds:} \UnionRatioEq$N$ at $m=N$ (median), and up to \UnionRatioMax$N$ at $m=4N$.
+\item \emph{Equal-catchability estimators} (Lincoln--Petersen, $M_t$) and the Michaelis--Menten curve inherit the same inflation.
+\item \emph{Heterogeneity estimators} built for exactly this kind of data are the worst. Chao's bound is $\ChaoRatioEq$ the truth at $m=N$ and up to $\ChaoRatioMax$ beyond, and the jackknife is also too high, increasingly so as the dictionary grows. The beta-binomial fitted to all species diverges in every setting.
+\end{itemize}
+
+\begin{table}[t]
+\centering\small
+\caption{\textbf{Estimated count divided by the planted count $N$} (median over settings; blind matching, $\tau=\MainTau$; \SynSeeds{} seeds). A superscript gives the number of settings in which the estimate diverged ($\hat N>10^9$), and ``div.'' means it diverged in every setting. The last two rows use the ground truth and are not available in practice. ``Reachable'' is the number of planted features that at least one seed caught.}
+\label{tab:synth}
+\input{tab_synth.tex}
+\end{table}
+
+\subsection{Why: junk latents are caught once}
+Figure~\ref{fig:mechanism}a shows the capture frequencies behind these failures. Blind matching produces a spike of features caught by a single seed. At $m=N$, \JunkSingleEq{} of those singletons match no planted feature (median over settings), and at $m>N$ the figure is \JunkSingleOver. They are directions that one seed learned and no other seed reproduced, the analogue of sequencing-error ``species'' in microbial surveys \citep{chiu2016estimating}. Features seen by two or more seeds are almost all real: across frequency classes with at least 20 features, the largest junk fraction is \JunkMultiMax{} when $m\ge N$. Chao's bound grows with the square of the singleton count, which explains its explosion. Capture probabilities are also genuinely unequal (Figure~\ref{fig:mechanism}b). When the dictionary is too small, the rarest features are caught by few seeds or none, the heterogeneity that model $M_h$ describes \citep{otis1978statistical}.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{../figures/fig2_mechanism.pdf}
+\caption{\textbf{Where naive counts go wrong} ($N=1024$, first data draw). (a) How many of the \SynSeeds{} seeds found each feature, under blind matching. Hatched bar segments match no planted feature. Almost all of them sit at ``found by one seed''. (b) Fraction of seeds that catch each planted feature (oracle matching), against how often the feature fires. With a dictionary half the needed size, rare features are seldom caught.}
+\label{fig:mechanism}
+\end{figure}
+
+\subsection{The singleton-free estimate recovers the planted count}
+\label{sec:sf}
+Dropping the singletons and fitting a bounded catch-probability mixture to everything else removes the junk without discarding real features. Whenever $m\ge N$, the blind singleton-free estimate is within \SfMaxErrComplete{} of $N$ in all \NComplete{} settings, and it never diverges. It stays within \SfMaxErrCompleteTauLo{} and \SfMaxErrCompleteTauHi{} at matching thresholds $\tau=\TauLo$ and $\TauHi$, and within \SfMaxErrCompleteHalfPmin{} with half the probability floor ($p_{\min}=1/(2K)$). Doubling the dictionary from $m=N$ to $m=2N$ changes the estimate by a median factor of \PlateauMed{}: it has \emph{plateaued}.
+
+When the dictionary is smaller than $N$, nothing can recover $N$. Even with oracle matching, only \OracleUnionQuarter{} ($m=N/4$) and \OracleUnionHalf{} ($m=N/2$) of planted features are ever caught by any of the \SynSeeds{} seeds. Here the estimate tracks the \emph{reachable} count: its ratio to the oracle union is \SfReachMed{} (median; range \SfReachLo--\SfReachHi). The estimate therefore behaves like a species-accumulation curve read in the dictionary-size direction. It rises while the dictionary is too small, and the height at which it stops rising is the feature count.
+
+The two ablations isolate the two ingredients. Without the probability floor, the singleton-free beta-binomial diverges in most settings, often from a single stray recapture (Appendix~\ref{app:estimators}). With oracle matching, the same estimator is within a few percent of $N$ for $m\ge N$, so the remaining error comes from matching, not from the estimator.
+
+\subsection{Predicting what more seeds will find}
+\label{sec:heldout}
+A population estimate makes a checkable prediction: train more seeds and you will find more of the population. We fit the singleton-free model on 4 of the 8 seeds (10 random subsets per setting) and predict how many features blind matching will find at least twice among all 8 (Figure~\ref{fig:heldout}).
+\begin{itemize}\setlength\itemsep{1pt}
+\item \emph{Dictionary smaller than the feature count.} New features keep appearing. Assuming no growth misses by \HeldSynSmallNoGrowthMed{} (median), and equal catchability by \HeldSynSmallMZeroMed. The singleton-free model misses by \HeldSynSmallSfMed{}, overshooting.
+\item \emph{Dictionary at least as large as the feature count.} Four seeds already find almost everything. ``No growth'' is the right answer (median error \HeldSynBigNoGrowthMed), and the singleton-free model matches it in the median (\HeldSynBigSfMed) but overshoots by up to \HeldSynBigSfMax{} in the $m=N$ settings, where four seeds give it little to fit.
+\end{itemize}
+The estimator is thus useful for forecasting, but biased upward when fitted to few seeds.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.55\linewidth]{../figures/fig3_heldout.pdf}
+\caption{\textbf{Held-out seeds.} Error in predicting how many features 8 seeds will find at least twice, from 4 seeds. Each point is one setting, averaged over 10 random 4-seed subsets.}
+\label{fig:heldout}
+\end{figure}
+
+\input{sections/results_hier.tex}
+
+\input{sections/results_real.tex}

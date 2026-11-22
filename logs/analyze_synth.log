@@ -1,0 +1,95 @@
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: divide by zero encountered in log1p
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: invalid value encountered in multiply
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:153: RuntimeWarning: invalid value encountered in logaddexp
+  return np.logaddexp(np.log(w) + l1, np.log1p(-w) + l2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:123: RuntimeWarning: invalid value encountered in reduce
+  tail = np.logaddexp.reduce(lp[jmin:])
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:99: OptimizeWarning: Covariance of the parameters could not be estimated
+  (a, b), _ = curve_fit(lambda x, a, b: a * x / (b + x), t, s, p0=[s[-1] * 1.5, 1.0],
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:140: RuntimeWarning: overflow encountered in exp
+  a, b = np.exp(th)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:141: RuntimeWarning: invalid value encountered in subtract
+  return _lchoose(K, y) + betaln(y + a, K - y + b) - betaln(a, b)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:123: RuntimeWarning: invalid value encountered in reduce
+  tail = np.logaddexp.reduce(lp[jmin:])
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: divide by zero encountered in log1p
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: invalid value encountered in multiply
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:153: RuntimeWarning: invalid value encountered in logaddexp
+  return np.logaddexp(np.log(w) + l1, np.log1p(-w) + l2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:151: RuntimeWarning: divide by zero encountered in log1p
+  l1 = _lchoose(K, y) + y * np.log(p1) + (K - y) * np.log1p(-p1)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:151: RuntimeWarning: invalid value encountered in multiply
+  l1 = _lchoose(K, y) + y * np.log(p1) + (K - y) * np.log1p(-p1)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:99: OptimizeWarning: Covariance of the parameters could not be estimated
+  (a, b), _ = curve_fit(lambda x, a, b: a * x / (b + x), t, s, p0=[s[-1] * 1.5, 1.0],
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:140: RuntimeWarning: overflow encountered in exp
+  a, b = np.exp(th)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:141: RuntimeWarning: invalid value encountered in subtract
+  return _lchoose(K, y) + betaln(y + a, K - y + b) - betaln(a, b)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:151: RuntimeWarning: divide by zero encountered in log1p
+  l1 = _lchoose(K, y) + y * np.log(p1) + (K - y) * np.log1p(-p1)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:151: RuntimeWarning: invalid value encountered in multiply
+  l1 = _lchoose(K, y) + y * np.log(p1) + (K - y) * np.log1p(-p1)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:99: OptimizeWarning: Covariance of the parameters could not be estimated
+  (a, b), _ = curve_fit(lambda x, a, b: a * x / (b + x), t, s, p0=[s[-1] * 1.5, 1.0],
+done N1024_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 {'union': 1467.0, 'chao_mh': 31924.145833333332, 'sf_aic': 1010.1041900294013}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:99: OptimizeWarning: Covariance of the parameters could not be estimated
+  (a, b), _ = curve_fit(lambda x, a, b: a * x / (b + x), t, s, p0=[s[-1] * 1.5, 1.0],
+done N1024_d128_m1024_k8_a0.7_mu5.0_ds1_s1200 {'union': 1458.0, 'chao_mh': 47143.71875, 'sf_aic': 1002.4794384192959}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: divide by zero encountered in log1p
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: invalid value encountered in multiply
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:153: RuntimeWarning: invalid value encountered in logaddexp
+  return np.logaddexp(np.log(w) + l1, np.log1p(-w) + l2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:123: RuntimeWarning: invalid value encountered in reduce
+  tail = np.logaddexp.reduce(lp[jmin:])
+done N1024_d128_m256_k8_a0.7_mu5.0_ds1_s1200 {'union': 380.0, 'chao_mh': 513.2860576923076, 'sf_aic': 329.50293002221315}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:141: RuntimeWarning: invalid value encountered in subtract
+  return _lchoose(K, y) + betaln(y + a, K - y + b) - betaln(a, b)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:124: RuntimeWarning: invalid value encountered in subtract
+  return -np.sum(Q[jmin:] * (lp[jmin:] - tail))
+done N1024_d128_m256_k8_a0.7_mu5.0_ds0_s1200 {'union': 390.0, 'chao_mh': 631.171875, 'sf_aic': 303.5657093747419}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:140: RuntimeWarning: overflow encountered in exp
+  a, b = np.exp(th)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:151: RuntimeWarning: divide by zero encountered in log1p
+  l1 = _lchoose(K, y) + y * np.log(p1) + (K - y) * np.log1p(-p1)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:151: RuntimeWarning: invalid value encountered in multiply
+  l1 = _lchoose(K, y) + y * np.log(p1) + (K - y) * np.log1p(-p1)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:164: RuntimeWarning: divide by zero encountered in log
+  lps = [np.log(w[i]) + _lchoose(K, y) + y * np.log(p[i]) + (K - y) * np.log1p(-p[i])
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:153: RuntimeWarning: divide by zero encountered in log1p
+  return np.logaddexp(np.log(w) + l1, np.log1p(-w) + l2)
+done N1024_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 {'union': 7042.0, 'chao_mh': 15841154.0, 'sf_aic': 1026.2281711037758}
+done N1024_d128_m2048_k8_a0.7_mu5.0_ds1_s1200 {'union': 7124.0, 'chao_mh': 16278493.625, 'sf_aic': 1025.0441778141308}
+skip (incomplete) N1024_d64_m1024_k8_a0.7_mu5.0_ds0_s1200
+skip (incomplete) N1024_d64_m512_k8_a0.7_mu5.0_ds0_s1200
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: divide by zero encountered in log1p
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:152: RuntimeWarning: invalid value encountered in multiply
+  l2 = _lchoose(K, y) + y * np.log(p2) + (K - y) * np.log1p(-p2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:153: RuntimeWarning: invalid value encountered in logaddexp
+  return np.logaddexp(np.log(w) + l1, np.log1p(-w) + l2)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:123: RuntimeWarning: invalid value encountered in reduce
+  tail = np.logaddexp.reduce(lp[jmin:])
+done N1024_d128_m512_k8_a0.7_mu5.0_ds0_s1200 {'union': 782.0, 'chao_mh': 1030.0625, 'sf_aic': 685.467850089822}
+done N2048_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 {'union': 1630.0, 'chao_mh': 2138.3973540145985, 'sf_aic': 1361.4116960431734}
+done N1024_d128_m512_k8_a0.7_mu5.0_ds1_s1200 {'union': 783.0, 'chao_mh': 1120.1666666666665, 'sf_aic': 710.7678345689965}
+done N2048_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 {'union': 3097.0, 'chao_mh': 105914.40000000001, 'sf_aic': 2014.9945614274168}
+done N2048_d128_m512_k8_a0.7_mu5.0_ds0_s1200 {'union': 813.0, 'chao_mh': 1314.0212765957447, 'sf_aic': 612.3433316800422}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:124: RuntimeWarning: invalid value encountered in subtract
+  return -np.sum(Q[jmin:] * (lp[jmin:] - tail))
+done N512_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 {'union': 3262.0, 'chao_mh': 1102920.5833333335, 'sf_aic': 524.3768803062808}
+done N512_d128_m128_k8_a0.7_mu5.0_ds0_s1200 {'union': 199.0, 'chao_mh': 304.125, 'sf_aic': 169.756999000092}
+done N512_d128_m256_k8_a0.7_mu5.0_ds0_s1200 {'union': 370.0, 'chao_mh': 510.0, 'sf_aic': 308.09802864130074}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:131: RuntimeWarning: overflow encountered in scalar divide
+  return float(Sj / p_tail), best.x, float(best.fun)
+done N512_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 {'union': 5259.0, 'chao_mh': 4926269.71875, 'sf_aic': 521.586773122239}
+done N512_d128_m512_k8_a0.7_mu5.0_ds0_s1200 {'union': 822.0, 'chao_mh': 10293.0875, 'sf_aic': 495.61520832130185}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:131: RuntimeWarning: overflow encountered in scalar divide
+  return float(Sj / p_tail), best.x, float(best.fun)
+done N1024_d128_m4096_k8_a0.7_mu5.0_ds0_s1200 {'union': 12535.0, 'chao_mh': 28982486.5, 'sf_aic': 1032.5820337755697}

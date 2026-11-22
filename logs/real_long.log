@@ -1,0 +1,9 @@
+[1/8]  449.7s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed0.npz
+[2/8]  449.7s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed1.npz
+[3/8]  441.2s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed3.npz
+[4/8]  441.2s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed2.npz
+[5/8]  441.2s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed5.npz
+[6/8]  441.3s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed4.npz
+[7/8]  441.7s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed6.npz
+[8/8]  441.7s /home/chetan/Opencode/SlopResearch/feature-recapture/results/real/m2048_k32_e1_lr0.001_pythia_long/seed7.npz
+done long: 8 runs in 1777s

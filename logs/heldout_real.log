@@ -1,0 +1,5 @@
+m1024_k32_e2_lr0.001 target 543 {'no_growth': 357, 'm0': 395, 'sf_aic': 550}
+m2048_k32_e1_lr0.001_pythia_long target 1559 {'no_growth': 1110, 'm0': 1185, 'sf_aic': 1553}
+m2048_k32_e2_lr0.001 target 934 {'no_growth': 597, 'm0': 660, 'sf_aic': 894}
+m4096_k32_e2_lr0.001 target 1428 {'no_growth': 887, 'm0': 994, 'sf_aic': 1408}
+m8192_k32_e2_lr0.001 target 1867 {'no_growth': 1148, 'm0': 1303, 'sf_aic': 1841}

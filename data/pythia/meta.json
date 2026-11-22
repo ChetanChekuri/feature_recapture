@@ -1,0 +1,12 @@
+{
+ "model": "EleutherAI/pythia-70m",
+ "revision": "main",
+ "layer": 3,
+ "ctx": 128,
+ "n_train": 2000000,
+ "n_eval": 65536,
+ "scale": 0.8640024065971375,
+ "dataset": "NeelNanda/pile-10k",
+ "eval_docs": "0-499",
+ "train_docs": "500-"
+}

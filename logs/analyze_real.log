@@ -1,0 +1,11 @@
+done m1024_k32_e2_lr0.001 {'union': 6107.0, 'chao_mh': 98244.19047619047, 'sf_aic': 870.3696885484455}
+done m2048_k32_e2_lr0.001 {'union': 12900.0, 'chao_mh': 238236.35161870503, 'sf_aic': 1615.958478901032}
+done m4096_k32_e2_lr0.001 {'union': 27515.0, 'chao_mh': 705721.2902904329, 'sf_aic': 2519.889293898998}
+done m8192_k32_e2_lr0.001 {'union': 57614.0, 'chao_mh': 2405854.075885147, 'sf_aic': 3172.1238676482967}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:141: RuntimeWarning: invalid value encountered in subtract
+  return _lchoose(K, y) + betaln(y + a, K - y + b) - betaln(a, b)
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:124: RuntimeWarning: invalid value encountered in subtract
+  return -np.sum(Q[jmin:] * (lp[jmin:] - tail))
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:99: OptimizeWarning: Covariance of the parameters could not be estimated
+  (a, b), _ = curve_fit(lambda x, a, b: a * x / (b + x), t, s, p0=[s[-1] * 1.5, 1.0],
+done m2048_k32_e1_lr0.001_pythia_long {'union': 9706.0, 'chao_mh': 92673.01125, 'sf_aic': 2054.1632418920635}

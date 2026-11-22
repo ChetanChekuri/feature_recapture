@@ -1,0 +1,23 @@
+[project]
+name = "feature-recapture"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+  "torch==2.15.0",
+  "numpy",
+  "scipy",
+  "matplotlib",
+  "transformers",
+  "datasets",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv]
+package = false

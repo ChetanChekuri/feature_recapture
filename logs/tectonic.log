@@ -1,0 +1,1039 @@
+note: "version 2" Tectonic command-line interface activated
+note: Running TeX ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: Requested font "[lmmono10-regular]:" at 10.0pt
+note: Running BibTeX on paper.aux ...
+note: Rerunning TeX because bibtex was run ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: 
+Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: Requested font "[lmmono10-regular]:" at 10.0pt
+warning: paper.bbl:21: Underfull \hbox (badness 2951) in paragraph at lines 16--21
+warning: paper.bbl:21: Underfull \hbox (badness 3199) in paragraph at lines 16--21
+warning: paper.bbl:62: Underfull \hbox (badness 3312) in paragraph at lines 58--62
+warning: paper.bbl:131: Underfull \hbox (badness 2065) in paragraph at lines 128--131
+warning: paper.bbl:172: Underfull \hbox (badness 1622) in paragraph at lines 167--172
+warning: paper.bbl:180: Underfull \hbox (badness 3907) in paragraph at lines 175--180
+warning: paper.bbl:180: Underfull \hbox (badness 4518) in paragraph at lines 175--180
+note: Rerunning TeX because "paper.aux" changed ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:11: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: 
+Requested font "[lmmono10-regular]:" at 10.0pt
+warning: paper.bbl:21: Underfull \hbox (badness 2951) in paragraph at lines 16--21
+warning: paper.bbl:21: Underfull \hbox (badness 3199) in paragraph at lines 16--21
+warning: paper.bbl:62: Underfull \hbox (badness 3312) in paragraph at lines 58--62
+warning: paper.bbl:131: Underfull \hbox (badness 2065) in paragraph at lines 128--131
+warning: paper.bbl:172: Underfull \hbox (badness 1622) in paragraph at lines 167--172
+warning: paper.bbl:180: Underfull \hbox (badness 3907) in paragraph at lines 175--180
+warning: paper.bbl:180: Underfull \hbox (badness 4518) in paragraph at lines 175--180
+note: Rerunning TeX because "paper.aux" changed ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:11: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: 
+Requested font "[lmmono10-regular]:" at 10.0pt
+warning: paper.bbl:21: Underfull \hbox (badness 2951) in paragraph at lines 16--21
+warning: paper.bbl:21: Underfull \hbox (badness 3199) in paragraph at lines 16--21
+warning: paper.bbl:62: Underfull \hbox (badness 3312) in paragraph at lines 58--62
+warning: paper.bbl:131: Underfull \hbox (badness 2065) in paragraph at lines 128--131
+warning: paper.bbl:172: Underfull \hbox (badness 1622) in paragraph at lines 167--172
+warning: paper.bbl:180: Underfull \hbox (badness 3907) in paragraph at lines 175--180
+warning: paper.bbl:180: Underfull \hbox (badness 4518) in paragraph at lines 175--180
+warning: internal consistency problem when checking if paper.bbl changed
+note: Rerunning TeX because "paper.bbl" changed ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:11: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: 
+Requested font "[lmmono10-regular]:" at 10.0pt
+warning: paper.bbl:21: Underfull \hbox (badness 2951) in paragraph at lines 16--21
+warning: paper.bbl:21: Underfull \hbox (badness 3199) in paragraph at lines 16--21
+warning: paper.bbl:62: Underfull \hbox (badness 3312) in paragraph at lines 58--62
+warning: paper.bbl:131: Underfull \hbox (badness 2065) in paragraph at lines 128--131
+warning: paper.bbl:172: Underfull \hbox (badness 1622) in paragraph at lines 167--172
+warning: paper.bbl:180: Underfull \hbox (badness 3907) in paragraph at lines 175--180
+warning: paper.bbl:180: Underfull \hbox (badness 4518) in paragraph at lines 175--180
+warning: internal consistency problem when checking if paper.bbl changed
+note: Rerunning TeX because "paper.bbl" changed ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:11: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: 
+Requested font "[lmmono10-regular]:" at 10.0pt
+warning: paper.bbl:21: Underfull \hbox (badness 2951) in paragraph at lines 16--21
+warning: paper.bbl:21: Underfull \hbox (badness 3199) in paragraph at lines 16--21
+warning: paper.bbl:62: Underfull \hbox (badness 3312) in paragraph at lines 58--62
+warning: paper.bbl:131: Underfull \hbox (badness 2065) in paragraph at lines 128--131
+warning: paper.bbl:172: Underfull \hbox (badness 1622) in paragraph at lines 167--172
+warning: paper.bbl:180: Underfull \hbox (badness 3907) in paragraph at lines 175--180
+warning: paper.bbl:180: Underfull \hbox (badness 4518) in paragraph at lines 175--180
+warning: internal consistency problem when checking if paper.bbl changed
+note: Rerunning TeX because "paper.bbl" changed ...
+warning: hyperref.sty:4873: Requested font "pzdr" at 0.00002pt
+warning: hyperref.sty:4873:  -> pzdr
+warning: paper.tex:19: 
+Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 9.99997pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Slanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldItalic.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;" at 10.00003pt
+warning: paper.tex:19: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 17.28pt
+warning: paper.tex:21: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: paper.tex:21: 
+Requested font "ntx-Regular-tlf-ot1" at 12.0pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 8.8pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntx-Regular-tlf-ot1" at 6.6pt
+warning: paper.tex:21:  -> ntx-Regular-tlf-ot1
+warning: paper.tex:21: Requested font "ntxmi" at 12.0pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi" at 8.8pt
+warning: paper.tex:21:  -> ntxmi
+warning: paper.tex:21: Requested font "ntxmi7" at 6.6pt
+warning: paper.tex:21:  -> ntxmi7
+warning: paper.tex:21: Requested font "ntxsy" at 12.0pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy" at 8.8pt
+warning: paper.tex:21:  -> ntxsy
+warning: paper.tex:21: Requested font "ntxsy7" at 6.6pt
+warning: paper.tex:21:  -> ntxsy7
+warning: paper.tex:21: Requested font "ntxexx" at 12.0pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 8.8pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: Requested font "ntxexx" at 6.6pt
+warning: paper.tex:21:  -> ntxexx
+warning: paper.tex:21: 
+Requested font "ntxmia" at 12.0pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 8.8pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: Requested font "ntxmia" at 6.6pt
+warning: paper.tex:21:  -> ntxmia
+warning: paper.tex:21: 
+Requested font "ntxsym" at 12.0pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 8.8pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: Requested font "ntxsym" at 6.6pt
+warning: paper.tex:21:  -> ntxsym
+warning: paper.tex:21: 
+Requested font "ntxsyc" at 12.0pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 8.8pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxsyc" at 6.6pt
+warning: paper.tex:21:  -> ntxsyc
+warning: paper.tex:21: Requested font "ntxexa" at 12.0pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 8.8pt
+warning: paper.tex:21:  -> ntxexa
+warning: paper.tex:21: Requested font "ntxexa" at 6.6pt
+warning: paper.tex:21:  -> ntxexa
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntx-Regular-tlf-ot1" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntx-Regular-tlf-ot1
+warning: sections/abstract.tex:4: Requested font "ntxmi" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmi
+warning: sections/abstract.tex:4: Requested font "ntxmi7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmi7
+warning: sections/abstract.tex:4: Requested font "ntxmi5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmi5
+warning: sections/abstract.tex:4: Requested font "ntxsy" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsy
+warning: sections/abstract.tex:4: Requested font "ntxsy7" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsy7
+warning: sections/abstract.tex:4: Requested font "ntxsy5" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsy5
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxexx" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexx
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxmia" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxmia
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsym" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsym
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxsyc" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxsyc
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 9.0pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 7.3pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "ntxexa" at 5.5pt
+warning: sections/abstract.tex:4:  -> ntxexa
+warning: sections/abstract.tex:4: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 9.0pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:1: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 14.4pt
+warning: sections/intro.tex:6: Requested font "[TeXGyreTermesX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:11: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
+warning: sections/intro.tex:13: Requested font "ntx-Regular-tlf-ot1" at 10.0pt
+warning: sections/intro.tex:13:  -> ntx-Regular-tlf-ot1
+warning: sections/intro.tex:13: Requested font "ntxmi" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmi
+warning: sections/intro.tex:13: Requested font "ntxsy" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsy
+warning: sections/intro.tex:13: Requested font "ntxexx" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexx
+warning: sections/intro.tex:13: Requested font "ntxmia" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxmia
+warning: sections/intro.tex:13: Requested font "ntxsym" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsym
+warning: sections/intro.tex:13: Requested font "ntxsyc" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxsyc
+warning: sections/intro.tex:13: Requested font "ntxexa" at 10.0pt
+warning: sections/intro.tex:13:  -> ntxexa
+warning: sections/method.tex:4: Requested font "[TeXGyreTermesX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 12.0pt
+warning: sections/method.tex:33: 
+Requested font "[lmmono10-regular]:" at 10.0pt
+warning: paper.bbl:21: Underfull \hbox (badness 2951) in paragraph at lines 16--21
+warning: paper.bbl:21: Underfull \hbox (badness 3199) in paragraph at lines 16--21
+warning: paper.bbl:62: Underfull \hbox (badness 3312) in paragraph at lines 58--62
+warning: paper.bbl:131: Underfull \hbox (badness 2065) in paragraph at lines 128--131
+warning: paper.bbl:172: Underfull \hbox (badness 1622) in paragraph at lines 167--172
+warning: paper.bbl:180: Underfull \hbox (badness 3907) in paragraph at lines 175--180
+warning: paper.bbl:180: Underfull \hbox (badness 4518) in paragraph at lines 175--180
+warning: internal consistency problem when checking if paper.bbl changed
+warning: TeX rerun seems needed, but stopping at 6 passes
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: Writing `paper.pdf` (183.44 KiB)
+note: Skipped writing 3 intermediate files (use --keep-intermediates to keep them)

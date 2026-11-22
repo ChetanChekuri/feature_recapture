@@ -1,0 +1,99 @@
+========================================================================
+tests
+========================================================================
+ok  test_homogeneous_unbiased
+ok  test_heterogeneous_chao_beats_mt
+ok  test_singleton_free_ignores_junk
+ok  test_stray_recapture_does_not_diverge
+ok  test_rarefaction_identities
+ok  test_blind_matching_recovers_permutation
+ok  test_sae_recovers_planted_features
+ok  test_hierarchy_levels_are_separable
+all tests passed
+========================================================================
+analysis
+========================================================================
+done N1024_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 {'union': 1467.0, 'chao_mh': 31924.145833333332, 'sf_aic': 1010.1041900294013}
+done N1024_d128_m1024_k8_a0.7_mu5.0_ds1_s1200 {'union': 1458.0, 'chao_mh': 47143.71875, 'sf_aic': 1002.4794384192959}
+done N1024_d128_m256_k8_a0.7_mu5.0_ds0_s1200 {'union': 390.0, 'chao_mh': 631.171875, 'sf_aic': 303.5657093747419}
+done N1024_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 {'union': 7042.0, 'chao_mh': 15841154.0, 'sf_aic': 1026.2281711037758}
+done N1024_d128_m256_k8_a0.7_mu5.0_ds1_s1200 {'union': 380.0, 'chao_mh': 513.2860576923076, 'sf_aic': 329.50293002221315}
+done N1024_d128_m2048_k8_a0.7_mu5.0_ds1_s1200 {'union': 7124.0, 'chao_mh': 16278493.625, 'sf_aic': 1025.0441778141308}
+done N1024_d128_m512_k8_a0.7_mu5.0_ds0_s1200 {'union': 782.0, 'chao_mh': 1030.0625, 'sf_aic': 685.467850089822}
+done N1024_d128_m512_k8_a0.7_mu5.0_ds1_s1200 {'union': 783.0, 'chao_mh': 1120.1666666666665, 'sf_aic': 710.7678345689965}
+skip (incomplete) N1024_d64_m1024_k8_a0.7_mu5.0_ds0_s1200
+done N1024_d128_m4096_k8_a0.7_mu5.0_ds0_s1200 {'union': 12535.0, 'chao_mh': 28982486.5, 'sf_aic': 1032.5820337755697}
+skip (incomplete) N1024_d64_m512_k8_a0.7_mu5.0_ds0_s1200
+done N2048_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 {'union': 1630.0, 'chao_mh': 2138.3973540145985, 'sf_aic': 1361.4116960431734}
+done N2048_d128_m512_k8_a0.7_mu5.0_ds0_s1200 {'union': 813.0, 'chao_mh': 1314.0212765957447, 'sf_aic': 612.3433316800422}
+done N512_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 {'union': 3262.0, 'chao_mh': 1102920.5833333335, 'sf_aic': 524.3768803062808}
+done N2048_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 {'union': 3097.0, 'chao_mh': 105914.40000000001, 'sf_aic': 2014.9945614274168}
+done N512_d128_m128_k8_a0.7_mu5.0_ds0_s1200 {'union': 199.0, 'chao_mh': 304.125, 'sf_aic': 169.756999000092}
+done N512_d128_m256_k8_a0.7_mu5.0_ds0_s1200 {'union': 370.0, 'chao_mh': 510.0, 'sf_aic': 308.09802864130074}
+done N512_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 {'union': 5259.0, 'chao_mh': 4926269.71875, 'sf_aic': 521.586773122239}
+done N512_d128_m512_k8_a0.7_mu5.0_ds0_s1200 {'union': 822.0, 'chao_mh': 10293.0875, 'sf_aic': 495.61520832130185}
+done N1024_d128_m1024_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 {'union': 1546.0, 'chao_mh': 37050.7875, 'sf_aic': 910.1027785077175}
+done N1024_d128_m1024_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 {'union': 1543.0, 'chao_mh': 37047.7875, 'sf_aic': 907.9560813986279}
+done N1024_d128_m128_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 {'union': 187.0, 'chao_mh': 329.2421875, 'sf_aic': 163.01384797668703}
+done N1024_d128_m128_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 {'union': 190.0, 'chao_mh': 290.8, 'sf_aic': 145.57306384839217}
+done N1024_d128_m2048_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 {'union': 6850.0, 'chao_mh': 7426626.0, 'sf_aic': 1031.5845161398222}
+done N1024_d128_m2048_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 {'union': 6860.0, 'chao_mh': 14892311.4375, 'sf_aic': 1027.4720134490108}
+done N1024_d128_m256_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 {'union': 365.0, 'chao_mh': 485.3333333333333, 'sf_aic': 303.5882936645526}
+done N1024_d128_m512_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 {'union': 703.0, 'chao_mh': 865.7232142857142, 'sf_aic': 609.0741892457899}
+done N1024_d128_m256_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 {'union': 383.0, 'chao_mh': 519.2980769230769, 'sf_aic': 311.79274341978214}
+done N1024_d128_m512_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 {'union': 707.0, 'chao_mh': 888.3715909090909, 'sf_aic': 620.1126299814016}
+done m1024_k32_e2_lr0.001 {'union': 6107.0, 'chao_mh': 98244.19047619047, 'sf_aic': 870.3696885484455}
+done m2048_k32_e1_lr0.001_pythia_long {'union': 9706.0, 'chao_mh': 92673.01125, 'sf_aic': 2054.1632418920635}
+done m2048_k32_e2_lr0.001 {'union': 12900.0, 'chao_mh': 238236.35161870503, 'sf_aic': 1615.958478901032}
+done m4096_k32_e2_lr0.001 {'union': 27515.0, 'chao_mh': 705721.2902904329, 'sf_aic': 2519.889293898998}
+done m8192_k32_e2_lr0.001 {'union': 57614.0, 'chao_mh': 2405854.075885147, 'sf_aic': 3172.1238676482967}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:164: RuntimeWarning: divide by zero encountered in log
+  lps = [np.log(w[i]) + _lchoose(K, y) + y * np.log(p[i]) + (K - y) * np.log1p(-p[i])
+N1024_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 target 1010 {'no_growth': 1007, 'm0': 1008, 'sf_aic': 1067}
+N1024_d128_m1024_k8_a0.7_mu5.0_ds1_s1200 target 1001 {'no_growth': 1005, 'm0': 1005, 'sf_aic': 1062}
+N1024_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 target 1026 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1026}
+N1024_d128_m2048_k8_a0.7_mu5.0_ds1_s1200 target 1025 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1026}
+N1024_d128_m256_k8_a0.7_mu5.0_ds0_s1200 target 285 {'no_growth': 259, 'm0': 260, 'sf_aic': 297}
+N1024_d128_m256_k8_a0.7_mu5.0_ds1_s1200 target 291 {'no_growth': 258, 'm0': 258, 'sf_aic': 302}
+N1024_d128_m4096_k8_a0.7_mu5.0_ds0_s1200 target 1027 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1026}
+N1024_d128_m512_k8_a0.7_mu5.0_ds0_s1200 target 593 {'no_growth': 519, 'm0': 521, 'sf_aic': 633}
+N1024_d128_m512_k8_a0.7_mu5.0_ds1_s1200 target 579 {'no_growth': 523, 'm0': 526, 'sf_aic': 638}
+N2048_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 target 1231 {'no_growth': 1056, 'm0': 1063, 'sf_aic': 1328}
+N2048_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 target 2013 {'no_growth': 2007, 'm0': 2008, 'sf_aic': 2132}
+N2048_d128_m512_k8_a0.7_mu5.0_ds0_s1200 target 581 {'no_growth': 515, 'm0': 517, 'sf_aic': 621}
+N512_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 target 516 {'no_growth': 514, 'm0': 514, 'sf_aic': 514}
+N512_d128_m128_k8_a0.7_mu5.0_ds0_s1200 target 141 {'no_growth': 126, 'm0': 127, 'sf_aic': 146}
+N512_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 target 516 {'no_growth': 515, 'm0': 515, 'sf_aic': 516}
+N512_d128_m256_k8_a0.7_mu5.0_ds0_s1200 target 290 {'no_growth': 262, 'm0': 262, 'sf_aic': 311}
+N512_d128_m512_k8_a0.7_mu5.0_ds0_s1200 target 493 {'no_growth': 492, 'm0': 493, 'sf_aic': 538}
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:164: RuntimeWarning: divide by zero encountered in log
+  lps = [np.log(w[i]) + _lchoose(K, y) + y * np.log(p[i]) + (K - y) * np.log1p(-p[i])
+N1024_d128_m1024_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 target 909 {'no_growth': 971, 'm0': 972, 'sf_aic': 1042}
+N1024_d128_m1024_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 target 906 {'no_growth': 972, 'm0': 973, 'sf_aic': 1056}
+N1024_d128_m128_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 target 136 {'no_growth': 130, 'm0': 130, 'sf_aic': 156}
+N1024_d128_m128_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 target 142 {'no_growth': 133, 'm0': 134, 'sf_aic': 161}
+N1024_d128_m2048_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 target 1026 {'no_growth': 1024, 'm0': 1024, 'sf_aic': 1025}
+N1024_d128_m2048_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 target 1027 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1027}
+N1024_d128_m256_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 target 289 {'no_growth': 268, 'm0': 270, 'sf_aic': 322}
+N1024_d128_m256_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 target 293 {'no_growth': 266, 'm0': 269, 'sf_aic': 329}
+N1024_d128_m512_k8_a0.7_mu5.0_ds0_s1200_h4c0.6 target 568 {'no_growth': 528, 'm0': 532, 'sf_aic': 644}
+N1024_d128_m512_k8_a0.7_mu5.0_ds1_s1200_h4c0.6 target 556 {'no_growth': 526, 'm0': 530, 'sf_aic': 638}
+m1024_k32_e2_lr0.001 target 543 {'no_growth': 357, 'm0': 395, 'sf_aic': 550}
+m2048_k32_e1_lr0.001_pythia_long target 1559 {'no_growth': 1110, 'm0': 1185, 'sf_aic': 1553}
+m2048_k32_e2_lr0.001 target 934 {'no_growth': 597, 'm0': 660, 'sf_aic': 894}
+m4096_k32_e2_lr0.001 target 1428 {'no_growth': 887, 'm0': 994, 'sf_aic': 1408}
+m8192_k32_e2_lr0.001 target 1867 {'no_growth': 1148, 'm0': 1303, 'sf_aic': 1841}
+========================================================================
+figures and numbers
+========================================================================
+figures written to /home/chetan/Opencode/SlopResearch/feature-recapture/figures
+wrote 172 macros
+macro check ok: 111 macros used, all defined; no hand-typed results
+========================================================================
+paper
+========================================================================
+paper/paper.pdf built
+
+real	7m32.289s
+user	26m6.451s
+sys	1m1.629s

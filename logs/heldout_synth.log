@@ -1,0 +1,19 @@
+/home/chetan/Opencode/SlopResearch/feature-recapture/src/fr/estimators.py:164: RuntimeWarning: divide by zero encountered in log
+  lps = [np.log(w[i]) + _lchoose(K, y) + y * np.log(p[i]) + (K - y) * np.log1p(-p[i])
+N1024_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 target 1010 {'no_growth': 1007, 'm0': 1008, 'sf_aic': 1067}
+N1024_d128_m1024_k8_a0.7_mu5.0_ds1_s1200 target 1001 {'no_growth': 1005, 'm0': 1005, 'sf_aic': 1062}
+N1024_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 target 1026 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1026}
+N1024_d128_m2048_k8_a0.7_mu5.0_ds1_s1200 target 1025 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1026}
+N1024_d128_m256_k8_a0.7_mu5.0_ds0_s1200 target 285 {'no_growth': 259, 'm0': 260, 'sf_aic': 297}
+N1024_d128_m256_k8_a0.7_mu5.0_ds1_s1200 target 291 {'no_growth': 258, 'm0': 258, 'sf_aic': 302}
+N1024_d128_m4096_k8_a0.7_mu5.0_ds0_s1200 target 1027 {'no_growth': 1025, 'm0': 1025, 'sf_aic': 1026}
+N1024_d128_m512_k8_a0.7_mu5.0_ds0_s1200 target 593 {'no_growth': 519, 'm0': 521, 'sf_aic': 633}
+N1024_d128_m512_k8_a0.7_mu5.0_ds1_s1200 target 579 {'no_growth': 523, 'm0': 526, 'sf_aic': 638}
+N2048_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 target 1231 {'no_growth': 1056, 'm0': 1063, 'sf_aic': 1328}
+N2048_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 target 2013 {'no_growth': 2007, 'm0': 2008, 'sf_aic': 2132}
+N2048_d128_m512_k8_a0.7_mu5.0_ds0_s1200 target 581 {'no_growth': 515, 'm0': 517, 'sf_aic': 621}
+N512_d128_m1024_k8_a0.7_mu5.0_ds0_s1200 target 516 {'no_growth': 514, 'm0': 514, 'sf_aic': 514}
+N512_d128_m128_k8_a0.7_mu5.0_ds0_s1200 target 141 {'no_growth': 126, 'm0': 127, 'sf_aic': 146}
+N512_d128_m2048_k8_a0.7_mu5.0_ds0_s1200 target 516 {'no_growth': 515, 'm0': 515, 'sf_aic': 516}
+N512_d128_m256_k8_a0.7_mu5.0_ds0_s1200 target 290 {'no_growth': 262, 'm0': 262, 'sf_aic': 311}
+N512_d128_m512_k8_a0.7_mu5.0_ds0_s1200 target 493 {'no_growth': 492, 'm0': 493, 'sf_aic': 538}

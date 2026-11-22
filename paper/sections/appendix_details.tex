@@ -1,0 +1,33 @@
+\section{Experimental details}
+\label{app:details}
+
+\paragraph{SAE.} TopK SAE \citep{gao2024scaling}: $z=\mathrm{TopK}(W_{\rm enc}^\top(x-b_{\rm dec})+b_{\rm enc})$ followed by ReLU, and $\hat x=W_{\rm dec}^\top z+b_{\rm dec}$. Decoder rows are kept at unit norm, with the component of each gradient parallel to its row removed. The encoder is initialised as the transpose of the decoder, and $b_{\rm dec}$ as the mean of the first batch. A latent is dead if it has not fired for 200k samples, and the AuxK loss (coefficient $1/32$, $k_{\rm aux}=\min(m/2,2k)$) reconstructs the residual from the top dead latents. Optimiser: Adam with $\beta=(0.9,0.999)$, constant learning rate, then linear decay to zero over the last 20\% of steps; batch size 4096. Seed $s$ seeds only the initialisation, from a random stream disjoint from every synthetic-data stream. (An early version shared the stream, so one seed's initialisation \emph{was} the planted dictionary. A test now guards against this.)
+
+\paragraph{Synthetic data.} Features $f_i\sim\mathrm{Uniform}(S^{d-1})$ with $d=\SynD$. Feature $i$ fires with probability $p_i=\min(1,c\,i^{-\SynAlpha})$, with $c$ set so that $\sum_ip_i=\SynMeanActive$, and with magnitude $U(0.5,1.5)$. Training data are 400 batches of 4096 samples, materialised once and reused for three passes (\SynSteps{} steps). Evaluation uses 16{,}384 samples from a disjoint random stream. Settings: $N\in\{512,1024,2048\}$; $m/N\in\{1/4,1/2,1,2,4\}$ with $m\le4096$, except $(N,m)=(2048,4096)$; plus a second feature/data draw for $N=1024$, $m/N\le2$. That gives \SynFamilies{} settings and \SynRuns{} SAEs. TopK $k=\SynK$, learning rate $2\times10^{-3}$.
+
+\paragraph{Hierarchical data (\S\ref{sec:hier}).} For each of the \HierParents{} parents we draw $\HierC+1$ orthonormal directions $g,u_1,\dots,u_{\HierC}$ (QR of a Gaussian matrix) and set child $j$ to $0.6\,g+0.8\,u_j$, so siblings have cosine exactly \HierSiblingCos{}. The parent reference is the normalised mean of its children, at cosine \HierParentCos{} to each. Parent $i$ fires with probability $\min(1,c\,i^{-\SynAlpha})$, with $c$ set so that $\sum_ip_i=\SynMeanActive$. When it fires, one of its children, chosen uniformly, takes magnitude $U(0.5,1.5)$. We use $d=\SynD$, $N=\HierChildren$ children, $m\in\{N/8,N/4,N/2,N,2N\}$ and \HierDraws{} data draws with \SynSeeds{} seeds each, with all other settings as above. Oracle matching uses the children and the parents together as references.
+
+\paragraph{Pythia-70M.} Residual stream after block \RealLayer{} of \texttt{EleutherAI/pythia-70m} (revision \texttt{main}), from 128-token contexts of \texttt{NeelNanda/pile-10k} \citep{pile10k}. Documents are concatenated with an end-of-text token between them, and the first position of each context is dropped. There are \RealTrainTokens{} training tokens (documents 500 onward, shuffled once with a fixed seed) and \RealEvalTokens{} evaluation tokens (documents 0--499). Activations are scaled by one global constant so that $\mathbb E\|x\|^2=d$ and stored in float16. TopK $k=\RealK$, learning rate $10^{-3}$ (chosen over $3\times10^{-4}$ by evaluation FVU in a one-seed pilot at $m=2048$), two passes over the data.
+
+\paragraph{Matching.} A latent is alive if it fires on at least $10^{-5}$ of evaluation samples. For each pair of runs we compute decoder cosine similarities and link mutual nearest neighbours above $\tau$. Species are the connected components of the union of links over all pairs. Oracle matching (synthetic only) marks planted feature $i$ caught by run $r$ when some alive latent of $r$ has cosine at least $\tau$ with $f_i$.
+
+\paragraph{Compute.} Everything ran on one laptop CPU (AMD Ryzen 7 8845HS, 8 cores, 13\,GB RAM) with no GPU. The synthetic SAEs took about an hour, caching Pythia-70M activations about an hour, and the Pythia-70M SAEs (pilot, main grid and the 10M-token family) a little over two hours. The first analysis pass, with bootstrap intervals, takes about half an hour; later builds reuse its cache and finish in minutes. The hierarchical grid (\S\ref{sec:hier}) took about 80 minutes, slowed by an unrelated job sharing the CPU, and its analysis about 7 minutes. In total the experiments took about six and a half hours. \texttt{build.sh} reruns everything and skips finished runs.
+
+\paragraph{Correctness tests.} \texttt{tests/test\_pipeline.py} plants known answers and checks that each stage recovers them:
+\begin{itemize}\setlength\itemsep{0pt}
+\item equal-catchability estimators recover $N$, and the bootstrap interval covers it;
+\item under heterogeneity, Chao's bound beats $M_t$;
+\item 3000 planted junk singletons leave the singleton-free estimate unchanged while Chao's bound explodes;
+\item a single stray recapture does not make the bounded estimator diverge;
+\item rarefaction identities hold;
+\item blind matching recovers a shuffled copy of a dictionary;
+\item one SAE recovers nearly all planted features in an easy regime;
+\item in the hierarchical data, the two levels are separable at $\tau=\MainTau$: oracle matching of the parent directions catches exactly the parents, and of the child directions exactly the children; at most one child per parent is active.
+\end{itemize}
+
+\begin{table}[h]
+\centering\small
+\caption{Pythia-70M: singleton-free estimate at three matching thresholds, and the number of features all \RealSeeds{} seeds share.}
+\label{tab:real_tau}
+\input{tab_real_tau.tex}
+\end{table}

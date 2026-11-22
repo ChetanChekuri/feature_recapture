@@ -1,0 +1,25 @@
+\section{Estimators in detail}
+\label{app:estimators}
+
+Throughout, $K$ is the number of seeds, $Y_s\in\{0,\dots,K\}$ the number of seeds that catch species $s$, $Q_j=\#\{s: Y_s=j\}$, $S=\sum_{j\ge1}Q_j$ and $S_{\ge2}=\sum_{j\ge2}Q_j$. Under model $M_h$ each species has its own catch probability $p_s$, drawn from an unknown distribution $G$, and seeds catch independently given $p_s$. Then $Y_s\mid p_s\sim\mathrm{Binomial}(K,p_s)$ and
+\begin{equation}
+\mathbb E\,Q_j = N\binom{K}{j}\mu_j,\qquad \mu_j=\int p^j(1-p)^{K-j}\,dG(p).
+\end{equation}
+
+\paragraph{Why Chao's estimator is a lower bound.} By Cauchy--Schwarz, $\mu_1^2=\big(\int p^{1/2}(1-p)^{K/2}\cdot p^{1/2}(1-p)^{(K-2)/2}\,dG\big)^2\le\mu_0\,\mu_2$. Substituting expected counts gives $\mathbb E Q_0\ge\frac{K-1}{K}\,(\mathbb EQ_1)^2/(2\,\mathbb EQ_2)$, the bound of \citet{chao1987estimating}. The bound is tight when $G$ is a point mass and loose when $G$ has mass near zero. It is also \emph{increasing} in $Q_1$, so every spurious singleton that blind matching creates inflates it quadratically. That is the failure in Table~\ref{tab:synth}.
+
+\paragraph{Jackknife.} The first- and second-order jackknives of \citet{burnham1978estimation} are $S+\frac{K-1}{K}Q_1$ and $S+\frac{2K-3}{K}Q_1-\frac{(K-2)^2}{K(K-1)}Q_2$. They are linear in $Q_1$, so they are inflated less violently than Chao's bound, but still inflated.
+
+\paragraph{Lincoln--Petersen and $M_t$.} For seeds $a,b$ with $n_a,n_b$ captures and $m_{ab}$ species caught by both, Chapman's estimator is $(n_a+1)(n_b+1)/(m_{ab}+1)-1$ \citep{chapman1951some}. We average it over all $\binom K2$ pairs. The $M_t$ maximum-likelihood estimate solves $\prod_r(1-n_r/N)=1-S/N$ \citep{darroch1958multiple}. Both assume equal catchability and undercount when it fails.
+
+\paragraph{Singleton-free mixtures.} Conditioning on $Y\ge2$ removes $Q_0$ and $Q_1$ from the likelihood:
+\begin{equation}
+\ell(\theta)=\sum_{j=2}^{K}Q_j\Big[\log\pi_j(\theta)-\log\textstyle\sum_{i\ge2}\pi_i(\theta)\Big],\qquad \pi_j(\theta)=\binom Kj\mu_j(\theta),
+\end{equation}
+which we maximise with Nelder--Mead from several starting points, and we set $\hat N=S_{\ge2}/\sum_{i\ge2}\pi_i(\hat\theta)$. The mixing distribution $G$ is a $c$-point mixture \citep{pledger2000unified}, $c\in\{1,2,3\}$, with $2c-1$ parameters, with support points in $[p_{\min},1)$ and $p_{\min}=1/K$. The reported estimate comes from the $c$ with the lowest AIC, $-2\ell+2(2c-1)$.
+
+Both choices matter, and the ablation rows of Table~\ref{tab:synth} show what goes wrong without them. Without the lower bound, a beta or two-point $G$ can place mass near $p=0$ while barely changing the truncated likelihood, because such species are almost never caught twice. The maximum-likelihood estimate then sits on the boundary with $\hat N\to\infty$. This happened in the over-complete runs: a single species caught by five of eight seeds, next to a thousand caught by all eight, was enough. That is Link's non-identifiability \citep{link2003nonidentifiability} in its most practical form. The bound turns ``how many features exist'' into the identifiable question ``how many features does a seed find with probability at least $1/K$''. Without AIC, a superfluous class can absorb noise. When an estimate exceeds $10^9$ we report it as diverged (``div.'').
+
+\paragraph{Predicting more seeds.} With $\hat\theta$ and $\hat N$ from $K'$ seeds, the expected number of species caught at least twice by $K$ seeds is $\hat N\sum_{j\ge2}\binom Kj\mu_j(\hat\theta;K)$. The held-out experiment compares this with the count blind matching finds among all $K$ seeds.
+
+\paragraph{Bootstrap.} Given $\hat N$, we append $\hat N-S$ all-zero rows to $H$, resample $\hat N$ rows with replacement, drop the zero rows, and recompute the estimator. Intervals are the 2.5th and 97.5th percentiles of \BootN{} resamples.
